@@ -53,3 +53,8 @@ Tests are run using `React Testing Library` framework.
 ```bash
 npm test
 ```
+
+
+## Using Redux intead of ContextApi
+
+I have used redux instead of context api just to prove that i am familiar with redux.
