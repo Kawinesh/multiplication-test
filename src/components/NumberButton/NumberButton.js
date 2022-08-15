@@ -21,6 +21,7 @@ const NumberButton = ({ label, ishighlighted, isSelected }) => {
     <button
       className={`NumberButton ${style}`}
       onClick={() => dispatch(buttonClicked(label))}
+      aria-label={`${label} ${style}`} // used to improve the user experience of visually impaired users.
     >
       {label}
     </button>
