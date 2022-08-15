@@ -1,0 +1,53 @@
+.App {
+
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 96px;
+}
+
+@media (max-width:320px) {
+
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .App {
+    grid-template-columns: repeat(1, 1fr);
+    width: 96px;
+  }
+}
+
+@media (min-width:481px) {
+
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .App {
+    grid-template-columns: repeat(2, 1fr);
+    width: 192px;
+  }
+}
+
+@media (min-width:641px) {
+
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .App {
+    grid-template-columns: repeat(2, 1fr);
+    width: 192px;
+  }
+}
+
+@media (min-width:961px) {
+
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .App {
+    grid-template-columns: repeat(2, 1fr);
+    width: 192px;
+  }
+}
+
+@media (min-width:1025px) {
+
+  /* big landscape tablets, laptops, and desktops */
+  .App {
+    grid-template-columns: repeat(3, 1fr);
+    width: 288px;
+  }
+}

@@ -1,0 +1,17 @@
+.NumberButton {
+    margin: 24px;
+    width: 72px;
+    height: 72px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.highlighted {
+    background-color: grey;
+}
+
+.selected {
+    background-color: red;
+}
